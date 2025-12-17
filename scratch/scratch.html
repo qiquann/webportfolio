@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Scratch Page | I Love TikTok</title>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="scratch.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="container">
+      <h1 id="top">I Love TikTok</h1>
+      <p>
+        I love TikTok because it connects creativity, culture, and communication in a way that feels personal and global at the same time.
+      </p>
+      <a class="btn" href="../index.html">Back to professional site</a>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <div class="container">
+
+    <!-- Navigation -->
+    <div class="block">
+      <h2>Quick navigation</h2>
+      <p>
+        Jump to the <a href="#list">things I love</a>, <a href="#video">a favorite TikTok moment</a>, or <a href="#tableau">TikTok data</a>.
+      </p>
+      <p>
+        My interactive web app is here: <a href="app.html">Open the app</a>.
+      </p>
+    </div>
+
+    <!-- Intro -->
+    <div class="block">
+      <h2>Why TikTok matters to me</h2>
+      <p>
+        TikTok is more than short videos. It is a fast moving platform where trends, humor, and storytelling come together in creative ways. As a public relations student, I enjoy seeing how creators capture attention and communicate messages in just a few seconds.
+      </p>
+      <p>
+        As a Singaporean, I also appreciate seeing global conversations include Asian voices, especially when moments of cultural identity go viral.
+      </p>
+    </div>
+
+    <!-- Nested list -->
+    <div class="block" id="list">
+      <h2>What I love about TikTok</h2>
+
+      <ol>
+        <li>Creative expression
+          <ul>
+            <li>Short form storytelling</li>
+            <li>Editing and sound trends</li>
+            <li>Authentic humor</li>
+          </ul>
+        </li>
+        <li>Community building</li>
+        <li>Fast cultural conversations</li>
+      </ol>
+
+      <p>
+        <a href="#top">Back to top</a>
+      </p>
+    </div>
+
+    <!-- Image -->
+    <div class="block">
+      <h2>Image inspiration</h2>
+      <p>
+        People can showcase anything they want on TikTok, from daily life to creative projects.
+      </p>
+      <img src="hobby.jpg" alt="TikTok inspired image" style="width: 100%; border-radius: 14px;">
+    </div>
+
+    <!-- YouTube -->
+    <div class="block" id="video">
+      <h2>Favorite TikTok moment</h2>
+      <p>
+        This is how I feel every time someone asks me if I am from China.
+      </p>
+
+      <iframe
+        width="100%"
+        height="315"
+        src="https://www.youtube.com/embed/eHDh4wKk6AQ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+
+      <p><em>If the video does not load, click “Watch on YouTube.”</em></p>
+
+      <p>
+        <a href="#top">Back to top</a>
+      </p>
+    </div>
+
+    <!-- Tableau -->
+    <div class="block" id="tableau">
+      <h2>TikTok data visualization</h2>
+      <p>
+        Below is a live and interactive Tableau visualization exploring TikTok slang and trends.
+      </p>
+
+      <div class="tableauPlaceholder" id="vizTikTok" style="position: relative;">
+        <noscript>
+          <a href="#">
+            <img
+              alt="TikTok Slang Analysis"
+              src="https://public.tableau.com/static/images/Ti/TiktokSlangAnalysis/Dashboard1/1_rss.png"
+              style="border: none; width: 100%;" />
+          </a>
+        </noscript>
+
+        <object class="tableauViz" style="display: none;">
+          <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+          <param name="embed_code_version" value="3" />
+          <param name="site_root" value="" />
+          <param name="name" value="TiktokSlangAnalysis/Dashboard1" />
+          <param name="tabs" value="no" />
+          <param name="toolbar" value="yes" />
+          <param name="static_image" value="https://public.tableau.com/static/images/Ti/TiktokSlangAnalysis/Dashboard1/1.png" />
+          <param name="animate_transition" value="yes" />
+          <param name="display_static_image" value="yes" />
+          <param name="display_spinner" value="yes" />
+          <param name="display_overlay" value="yes" />
+          <param name="display_count" value="yes" />
+          <param name="language" value="en-US" />
+        </object>
+      </div>
+
+      <script type="text/javascript">
+        var divElement = document.getElementById("vizTikTok");
+        var vizElement = divElement.getElementsByTagName("object")[0];
+        vizElement.style.width = "100%";
+        vizElement.style.height = "650px";
+        var scriptElement = document.createElement("script");
+        scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+
+      <p>
+        <a href="#top">Back to top</a>
+      </p>
+    </div>
+
+  </div>
+</body>
+</html>
+
+
+
